@@ -1,7 +1,7 @@
 //auth ,isStudent, isAdmin
 
 const jwt = require("jsonwebtoken");
-const user = require("../models/user");
+const user = require("../models/User");
 require("dotenv").config();
 
 //we have to pass 3 parameters,req,res,next->jab aapka ek middleware khatam hota hai toh aapko next middleware ki call lagani hoti hai 
